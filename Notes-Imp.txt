@@ -1,0 +1,25 @@
+// variable to add and play audio 
+var audio = new Audio("sounds/tom-1.mp3");
+
+// funcion called to play the audio 
+audio.play();
+
+How to create a Object in JS:
+objects in JS are created using " {} === Curly Brackets";
+
+1. Creating a direct object:
+var object1 = {
+    yourName = "Yash";
+    yourAge = "22";
+}
+
+object1.yourName = "Raj";
+Changes the name from Yash --> Raj
+
+2. Creating a General object: (using constructor function)
+
+funcion details (name,age,gender) {
+    this.name = name;
+    this.age = age;
+    this.gender = gender;
+}
